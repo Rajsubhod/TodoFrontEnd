@@ -1,8 +1,14 @@
-# React + Vite
+# TodoApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Frontend part using react and vite
 
-Currently, two official plugins are available:
+- used redux for the data synchronization
+- tailwind for css
+- axios for api calling form frontend
+- react-router for routing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Backend part using Spring Framework
+
+- springboot for REST APIs
+- spring security for basic user authentication
+- MySql for data storing for user info and user todos
